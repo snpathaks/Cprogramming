@@ -131,12 +131,62 @@
 // }
 
 //Problem: Find max of three numbers using ternary.----------------------------------
-#include <stdio.h>
-int main() {
-    int a = 10, b = 20, c = 15;
-    int max = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
-    printf("Max: %d\n", max);
-    return 0;
-}
+// #include <stdio.h>
+// int main() {
+//     int a = 10, b = 20, c = 15;
+//     int max = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
+//     printf("Max: %d\n", max);
+//     return 0;
+// }
+
+
+//Use of break and continue--------------------------------------
+// #include<stdio.h>
+// int main(){
+//     int i;
+//     for( i=1 ; i<=10 ; i++){
+//         if(i == 8)
+//            break;
+//         if(i%2 == 0)
+//            continue;
+//         printf("%d " , i);
+
+//     }
+// }
+
+
+//Type casting problem: Convert float to int without using (int)-----------------------------
+// #include<stdio.h>
+// int main(){
+//     float f = 3.14;
+//     int i = f; // Implicit type casting
+//     printf("Integer value: %d\n", i);
+//     return 0;
+// } 
+
+//-------------------------------------------------------------
+// #include<stdio.h>
+// int main(){
+//     int i = 10 ; 
+//     float f = 3.14f;
+//     float result = i+f;
+//     printf("%.2f\n", result);
+
+// }
+
+//Division-----------------------------------------------------
+// #include<stdio.h>
+// int main(){
+//     int a , b ; 
+//     printf("Enter the numbers :");
+//     scanf("%d %d" , &a , &b);
+//     float res = (float)a/b;
+//     printf("Result of division is %.2f\n" , res);
+
+// }
+
+
+
+
 
 
