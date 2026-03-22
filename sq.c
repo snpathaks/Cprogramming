@@ -70,3 +70,33 @@
     
 //     return 0;
 // }
+
+
+// //Reverse an Array-----------------------------------------------------------------
+
+// #include <stdio.h>
+
+// int main() {
+//     int num;
+//     scanf("%d", &num);
+
+//     int arr[num];
+
+//     for(int i = 0; i < num; i++) {
+//         scanf("%d", &arr[i]);
+//     }
+
+//     // Reverse the array
+//     for(int i = 0; i < num / 2; i++) {
+//         int temp = arr[i];
+//         arr[i] = arr[num - i - 1];
+//         arr[num - i - 1] = temp;
+//     }
+
+//     // Print reversed array
+//     for(int i = 0; i < num; i++) {
+//         printf("%d ", *(arr + i));
+//     }
+
+//     return 0;
+// }
