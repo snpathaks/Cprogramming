@@ -103,7 +103,7 @@
 
 
 // Greatest of three Number -------------------------------------------------------------------
-
+/*
 #include <stdio.h>
 
 int main() {
@@ -120,4 +120,6 @@ int main() {
         printf("Greatest number is: %d\n", c);
 
     return 0;
-}
+}*/
+
+//
